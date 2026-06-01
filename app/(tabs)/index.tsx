@@ -53,10 +53,10 @@ function ListingCard({ listing, onPress, index }: { listing: Listing; onPress: (
   return (
     <Animated.View
       entering={FadeInDown.delay(index * 60).springify().damping(14)}
-      style={[styles.cardOuter, animStyle]}
+      style={styles.cardOuter}
     >
-      <Pressable
-        style={styles.card}
+      <AnimatedPressable
+        style={[styles.card, animStyle]}
         onPress={onPress}
         onPressIn={onPressIn}
         onPressOut={onPressOut}
