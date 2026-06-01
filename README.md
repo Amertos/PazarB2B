@@ -1,78 +1,92 @@
 <div align="center">
   <img src="https://img.icons8.com/color/120/000000/shop.png" alt="PazarB2B Logo" width="100"/>
-  <h1>PazarB2B (Višak) 🚀</h1>
-  <p><i>Vaša B2B platforma za upravljanje viškovima robe i veleprodajom</i></p>
+  <h1>PazarB2B (Surplus Management) 🚀</h1>
+  <p><i>Next-Generation B2B Platform for Wholesale & Surplus Goods Management</i></p>
   
   <p>
-    <a href="https://expo.dev/"><img src="https://img.shields.io/badge/Built_with-Expo-000020.svg?logo=expo" alt="Expo"/></a>
-    <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-20232A?style=flat&logo=react&logoColor=61DAFB" alt="React Native"/></a>
-    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white" alt="TypeScript"/></a>
+    <a href="https://reactnative.dev/"><img src="https://img.shields.io/badge/React_Native-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React Native"/></a>
+    <a href="https://expo.dev/"><img src="https://img.shields.io/badge/Expo-000020?style=for-the-badge&logo=expo&logoColor=white" alt="Expo"/></a>
+    <a href="https://www.typescriptlang.org/"><img src="https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white" alt="TypeScript"/></a>
+    <a href="https://orm.drizzle.team/"><img src="https://img.shields.io/badge/Drizzle_ORM-C5F74F?style=for-the-badge&logo=drizzle&logoColor=black" alt="Drizzle ORM"/></a>
   </p>
 </div>
 
 ---
 
-## 📱 O aplikaciji
+## 📱 About The Project
 
-**PazarB2B** je napredna mobilna platforma namenjena olakšavanju B2B (Business-to-Business) trgovine i pametnom upravljanju viškovima robe. 
-Aplikacija omogućava preduzećima brz i efikasan način za pronalaženje novih partnera, optimizaciju zaliha i smanjenje otpada uz održivo poslovanje.
+**PazarB2B** is an advanced mobile application engineered to streamline Business-to-Business (B2B) trade and intelligently manage surplus inventory. 
+Designed with modern mobile architecture, it empowers enterprises to minimize waste, discover new wholesale partners, and optimize supply chain operations through a seamless digital experience.
 
-### ✨ Ključne funkcionalnosti
+### ✨ Key Features
 
-*   📦 **Upravljanje viškovima robe:** Lako dodavanje i pregled dostupnih viškova.
-*   🤝 **B2B Povezivanje:** Brzo uspostavljanje kontakta sa drugim kompanijama.
-*   🔔 **Notifikacije u realnom vremenu:** Pratite status narudžbina i upita.
-*   🎨 **Moderan UI/UX:** Intuitivan i brz interfejs baziran na najnovijim Expo ruterima.
-*   🔒 **Sigurnost podataka:** Najviši standardi zaštite korisničkih informacija i transakcija.
+*   📦 **Surplus Inventory Management:** Effortlessly list, track, and monetize excess goods.
+*   🤝 **B2B Networking:** Quickly establish connections with verified industry partners.
+*   🔔 **Real-Time Notifications:** Stay updated on orders, inquiries, and market trends.
+*   🎨 **Modern UI/UX:** A highly responsive, intuitive interface built with Expo Router.
+*   🔒 **Enterprise-Grade Security:** Robust data protection for user information and trade transactions.
 
 ---
 
-## 📸 Slike ekrana (Uskoro)
+## 📸 Screenshots (Coming Soon)
 
 <div align="center">
-  <img src="https://placehold.co/200x400/EEF4F0/333333?text=Pocetni+Ekran" alt="Screenshot 1" width="200" style="margin-right:10px;"/>
-  <img src="https://placehold.co/200x400/EEF4F0/333333?text=Katalog+Proizvoda" alt="Screenshot 2" width="200" style="margin-right:10px;"/>
-  <img src="https://placehold.co/200x400/EEF4F0/333333?text=B2B+Partneri" alt="Screenshot 3" width="200"/>
+  <img src="https://placehold.co/250x500/EEF4F0/333333?text=Dashboard" alt="Dashboard" width="200" style="margin-right:15px; border-radius: 10px;"/>
+  <img src="https://placehold.co/250x500/EEF4F0/333333?text=Product+Catalog" alt="Catalog" width="200" style="margin-right:15px; border-radius: 10px;"/>
+  <img src="https://placehold.co/250x500/EEF4F0/333333?text=B2B+Partners" alt="Partners" width="200" style="border-radius: 10px;"/>
 </div>
 
 ---
 
-## 🛠️ Tehnologije
+## 🛠️ Technology Stack
 
-- **Frontend:** React Native, Expo, TypeScript
-- **Navigacija:** Expo Router
-- **Baza i Backend:** Drizzle ORM, API integracije (sigurno skriveno od javnosti)
-- **Instalacija i Build:** Expo Application Services (EAS)
+We leverage a cutting-edge mobile development stack to ensure high performance, maintainability, and exceptional user experience:
+
+- **Core:** React Native, Expo, TypeScript
+- **Routing:** Expo Router (File-based navigation)
+- **Database & ORM:** Drizzle ORM (Type-safe database interactions)
+- **State & Data Fetching:** React Query
+- **Styling:** Custom StyleSheet / NativeWind
+- **CI/CD & Builds:** Expo Application Services (EAS)
 
 ---
 
-## 🚀 Instalacija i Pokretanje (za developere)
+## 🚀 Quick Start for Developers
 
-Ako želite da pokrenete ovaj projekat lokalno na vašoj mašini:
+Follow these instructions to set up the project locally.
 
-1. **Klonirajte repozitorijum:**
+### Prerequisites
+- Node.js (v18 or higher)
+- npm or yarn
+- Expo Go app on your physical device (or iOS Simulator / Android Emulator)
+
+### Installation
+
+1. **Clone the repository:**
    ```bash
    git clone https://github.com/Amertos/PazarB2B.git
    ```
 
-2. **Uđite u folder i instalirajte zavisnosti:**
+2. **Navigate to the project directory & install dependencies:**
    ```bash
    cd PazarB2B
    npm install
    ```
 
-3. **Pokrenite aplikaciju:**
+3. **Start the development server:**
    ```bash
    npx expo start
    ```
 
-4. *Skenirajte QR kod preko "Expo Go" aplikacije na telefonu.*
+4. *Scan the generated QR code using your Expo Go app to view it on your mobile device.*
 
 ---
 
-## 📦 Build aplikacije (Instalacioni fajlovi)
+## 📦 Building for Production
 
-Za kreiranje `.apk` ili `.ipa` instalacionih fajlova korišćen je EAS:
+This project is configured with **EAS (Expo Application Services)** for automated cloud builds.
+
+To generate standalone production binaries:
 
 *   **Android (APK):**
     ```bash
@@ -83,19 +97,18 @@ Za kreiranje `.apk` ili `.ipa` instalacionih fajlova korišćen je EAS:
     eas build --platform ios --profile production
     ```
 
-Svi izgenerisani fajlovi se lokalno preuzimaju u `build_outputs` direktorijum (koji je sakriven iz GitHub repozitorijuma zarad sigurnosti).
+*Note: Build artifacts are deliberately ignored via `.gitignore` to maintain a clean and secure repository.*
 
 ---
 
-## 🔒 Sigurnost
+## 🔒 Security Notice
 
-Ovaj projekat ne izlaže:
-- **API ključeve** 
-- **Lozinke baze podataka** 
-- `.env` fajlovi i lokalne konfiguracije su uspešno sakriveni putem `.gitignore`.
+This repository strictly adheres to security best practices:
+- No **API Keys** or **Database Credentials** are exposed.
+- `.env` files and local environment configurations are securely ignored.
 
 ---
 
 <div align="center">
-  <sub>Napravljeno sa ❤️ za bolju B2B trgovinu.</sub>
+  <sub>Built with ❤️ for a smarter B2B ecosystem.</sub>
 </div>
